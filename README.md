@@ -1,73 +1,94 @@
-# React + TypeScript + Vite
+<h1 align="center">Helix UI</h1>
+<p align="center">
+  <b>Cyber-Minimal Design System</b><br>
+  React • TypeScript • Design Tokens • 2026 Aesthetics
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <a href="https://ui-helix.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Live%20Storybook-00f0ff?style=for-the-badge&logo=storybook&logoColor=0a0a0f" alt="Storybook" />
+  </a>
+  <a href="https://react.dev" target="_blank">
+    <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=0a0a0f" alt="React" />
+  </a>
+  <a href="https://www.typescriptlang.org/" target="_blank">
+    <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  </a>
+  <a href="https://vitejs.dev/" target="_blank">
+    <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
+  </a>
+</p>
 
-Currently, two official plugins are available:
+<p align="center">
+  <a href="https://ui-helix.vercel.app/" target="_blank">🚀 Live Demo</a> •
+  <a href="#installation">📦 Installation</a> •
+  <a href="#components">🧩 Components</a> •
+  <a href="#design-tokens">🎨 Tokens</a>
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **🎨 2026 Cyber-Minimal Aesthetic** — Void black backgrounds with neon cyan accents
+- **⚡ Design Token Architecture** — Single source of truth via Style Dictionary
+- **🔥 5 Button Variants** — Primary, Secondary, Ghost, Neon (glow), Brutalist
+- **♿ WCAG 2.1 Accessible** — Focus-visible, keyboard navigation, ARIA labels
+- **📱 Responsive** — 4 sizes (sm, md, lg, xl) + full-width support
+- **⏳ Loading States** — Built-in spinners and disabled states
+- **🔷 TypeScript** — Full type safety with exported interfaces
+- **📚 Storybook Docs** — Interactive playground with auto-generated docs
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🚀 Live Demo
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+**[View Interactive Storybook →](https://ui-helix.vercel.app/)**
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+Explore all components, variants, and design tokens in the interactive playground.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+---
+
+## 📦 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/theakashkmr/helix-ui.git
+cd helix-ui
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Start Storybook (component documentation)
+npm run storybook
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🎨 Design Philosophy
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Cyber-Minimalism combines:
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- **Void aesthetics** — Deep blacks, not pure black (#000)  
+- **Neon accents** — Electric cyan with glow effects  
+- **Glassmorphism** — Translucent layers with blur  
+- **Neo-brutalism** — Hard shadows, bold borders (trending 2026)
+
+### Why this works:
+
+- Reduces eye strain (void > pure black)  
+- High contrast for accessibility  
+- Futuristic feel perfect for fintech/SaaS  
+- Memorable brand identity  
+
+---
+
+## 📄 License
+
+MIT © Akash Kumar
+
+<p align="center">
+  Built with ⚡ by <a href="https://www.linkedin.com/in/theakashkumar/">Akash Kumar</a><br>
+  <sub>Design Systems Engineer | London, UK</sub>
+</p>
