@@ -19,13 +19,6 @@
   </a>
 </p>
 
-<p align="center">
-  <a href="https://ui-helix.vercel.app/" target="_blank">🚀 Live Demo</a> •
-  <a href="#installation">📦 Installation</a> •
-  <a href="#components">🧩 Components</a> •
-  <a href="#design-tokens">🎨 Tokens</a>
-</p>
-
 ---
 
 ## ✨ Features
