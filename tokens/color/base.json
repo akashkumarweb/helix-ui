@@ -1,0 +1,13 @@
+{
+  "color": {
+    "base": {
+      "void": { "value": "#0a0a0f" },
+      "neon": { "value": "#00f0ff" },
+      "acid": { "value": "#ff3d00" },
+      "pulse": { "value": "#7000ff" },
+      "ghost": { "value": "#f8f9fa" },
+      "smoke": { "value": "#1a1a2e" },
+      "concrete": { "value": "#8892b0" }
+    }
+  }
+}

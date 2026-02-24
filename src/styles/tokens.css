@@ -1,0 +1,44 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --color-base-void: #0a0a0f;
+  --color-base-neon: #00f0ff;
+  --color-base-acid: #ff3d00;
+  --color-base-pulse: #7000ff;
+  --color-base-ghost: #f8f9fa;
+  --color-base-smoke: #1a1a2e;
+  --color-base-concrete: #8892b0;
+  --color-semantic-surface-default: #0a0a0f;
+  --color-semantic-surface-elevated: #1a1a2e;
+  --color-semantic-accent-primary: #00f0ff;
+  --color-semantic-accent-danger: #ff3d00;
+  --color-semantic-accent-magic: #7000ff;
+  --color-semantic-text-primary: #f8f9fa;
+  --color-semantic-text-muted: #8892b0;
+  --color-semantic-border-default: #1a1a2e;
+  --color-semantic-border-focus: #00f0ff;
+  --spacing-0: 0;
+  --spacing-1: 4px;
+  --spacing-2: 8px;
+  --spacing-3: 12px;
+  --spacing-4: 16px;
+  --spacing-5: 24px;
+  --spacing-6: 32px;
+  --spacing-7: 48px;
+  --spacing-8: 64px;
+  --font-family-sans: Inter, system-ui, sans-serif;
+  --font-family-mono: JetBrains Mono, monospace;
+  --font-size-xs: 12px;
+  --font-size-sm: 14px;
+  --font-size-base: 16px;
+  --font-size-lg: 18px;
+  --font-size-xl: 24px;
+  --font-size-2xl: 32px;
+  --font-size-3xl: 48px;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+  --font-weight-black: 900;
+}

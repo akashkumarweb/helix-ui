@@ -1,0 +1,37 @@
+@import './tokens.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family-sans);
+    background-color: var(--color-semantic-surface-default);
+    color: var(--color-semantic-text-primary);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* 2026 Utility Classes */
+.glass {
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.glow:hover {
+    box-shadow: 0 0 20px var(--color-semantic-accent-primary);
+}
+
+.neo-brutal {
+    box-shadow: 4px 4px 0px var(--color-semantic-accent-primary);
+    border: 2px solid var(--color-semantic-text-primary);
+}
+
+.text-gradient {
+    background: linear-gradient(135deg, var(--color-base-neon), var(--color-base-pulse));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

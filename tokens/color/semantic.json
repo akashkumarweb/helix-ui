@@ -1,0 +1,23 @@
+{
+  "color": {
+    "semantic": {
+      "surface": {
+        "default": { "value": "{color.base.void}" },
+        "elevated": { "value": "{color.base.smoke}" }
+      },
+      "accent": {
+        "primary": { "value": "{color.base.neon}" },
+        "danger": { "value": "{color.base.acid}" },
+        "magic": { "value": "{color.base.pulse}" }
+      },
+      "text": {
+        "primary": { "value": "{color.base.ghost}" },
+        "muted": { "value": "{color.base.concrete}" }
+      },
+      "border": {
+        "default": { "value": "{color.base.smoke}" },
+        "focus": { "value": "{color.base.neon}" }
+      }
+    }
+  }
+}
