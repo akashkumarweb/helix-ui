@@ -41,7 +41,8 @@
 
 /* Variants */
 .btn--primary {
-    background: linear-gradient(135deg, var(--color-base-neon), var(--color-base-pulse));
+    background-color: var(--color-base-pulse);
+    background-image: linear-gradient(135deg, var(--color-base-neon), var(--color-base-pulse));
     color: var(--color-base-void);
     box-shadow: 0 4px 15px rgba(0, 240, 255, 0.3);
 }
