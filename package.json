@@ -9,6 +9,7 @@
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
+    "build:tokens": "style-dictionary build",
     "chromatic": "npx chromatic --project-token=chpt_8e1b0530037dec0"
   },
   "dependencies": {
