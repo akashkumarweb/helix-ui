@@ -1,0 +1,120 @@
+/* Input Container */
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-2);
+    width: 100%;
+}
+
+.input-container--sm {
+    max-width: 200px;
+}
+
+.input-container--md {
+    max-width: 300px;
+}
+
+.input-container--lg {
+    max-width: 400px;
+}
+
+/* Label */
+.input__label {
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-medium);
+    color: var(--color-semantic-text-primary);
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-1);
+}
+
+.input__required {
+    color: var(--color-base-acid);
+}
+
+/* Input Field */
+.input__field {
+    width: 100%;
+    font-family: var(--font-family-sans);
+    font-size: var(--font-size-base);
+    color: var(--color-semantic-text-primary);
+    background-color: var(--color-semantic-surface-elevated);
+    border: 2px solid var(--color-semantic-border-default);
+    border-radius: var(--spacing-1);
+    padding: var(--spacing-3) var(--spacing-4);
+    transition: all 0.2s ease;
+    outline: none;
+}
+
+.input__field::placeholder {
+    color: var(--color-semantic-text-muted);
+}
+
+/* Focus States */
+.input__field:focus {
+    border-color: var(--color-semantic-border-focus);
+    box-shadow: 0 0 0 3px rgba(0, 240, 255, 0.1);
+}
+
+/* Disabled State */
+.input-container--disabled .input__field {
+    opacity: 0.6;
+    cursor: not-allowed;
+    background-color: var(--color-semantic-surface-default);
+}
+
+.input-container--disabled .input__label {
+    opacity: 0.6;
+}
+
+/* Error State */
+.input-container--error .input__field {
+    border-color: var(--color-base-acid);
+    background-color: rgba(255, 61, 0, 0.05);
+}
+
+.input-container--error .input__field:focus {
+    box-shadow: 0 0 0 3px rgba(255, 61, 0, 0.1);
+}
+
+/* Ghost Variant */
+.input-container--ghost .input__field {
+    background-color: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Brutalist Variant */
+.input-container--brutalist .input__field {
+    background-color: var(--color-semantic-surface-elevated);
+    border: 3px solid var(--color-semantic-text-primary);
+    box-shadow: 4px 4px 0px var(--color-semantic-accent-primary);
+    transform: translate(-2px, -2px);
+    transition: all 0.1s ease;
+}
+
+.input-container--brutalist .input__field:focus {
+    transform: translate(0, 0);
+    box-shadow: 2px 2px 0px var(--color-semantic-accent-primary);
+}
+
+/* Helper Text */
+.input__helper {
+    font-size: var(--font-size-sm);
+    color: var(--color-semantic-text-muted);
+}
+
+/* Error Text */
+.input__error {
+    font-size: var(--font-size-sm);
+    color: var(--color-base-acid);
+    font-weight: var(--font-weight-medium);
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-1);
+}
+
+.input__error::before {
+    content: '⚠';
+    font-size: var(--font-size-base);
+}

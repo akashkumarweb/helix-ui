@@ -10,6 +10,7 @@ export interface ButtonProps {
     loading?: boolean;
     fullWidth?: boolean;
     icon?: React.ReactNode;
+    type?: 'button' | 'submit' | 'reset';
 }
 
 export const Button: React.FC<ButtonProps> = ({
