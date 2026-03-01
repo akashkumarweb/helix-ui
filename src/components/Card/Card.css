@@ -1,0 +1,117 @@
+.card {
+    background-color: var(--color-semantic-surface-elevated);
+    transition: all 0.2s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Padding */
+.card--padding-none {
+    padding: 0;
+}
+
+.card--padding-sm {
+    padding: var(--spacing-3);
+}
+
+.card--padding-md {
+    padding: var(--spacing-5);
+}
+
+.card--padding-lg {
+    padding: var(--spacing-7);
+}
+
+.card--padding-xl {
+    padding: var(--spacing-8);
+}
+
+/* Radius */
+.card--radius-none {
+    border-radius: 0;
+}
+
+.card--radius-sm {
+    border-radius: var(--spacing-1);
+}
+
+.card--radius-md {
+    border-radius: var(--spacing-2);
+}
+
+.card--radius-lg {
+    border-radius: var(--spacing-3);
+}
+
+/* Variants */
+.card--default {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: var(--elevation-lg);
+}
+
+.card--outlined {
+    background-color: transparent;
+    border: 2px solid var(--color-semantic-border-default);
+    box-shadow: none;
+}
+
+.card--ghost {
+    background-color: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: var(--elevation-md);
+}
+
+.card--brutalist {
+    background-color: var(--color-semantic-surface-elevated);
+    border: 3px solid var(--color-semantic-text-primary);
+    box-shadow: 8px 8px 0px var(--color-semantic-accent-primary);
+    transform: translate(-4px, -4px);
+    transition: all 0.1s ease;
+}
+
+.card--brutalist:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 4px 4px 0px var(--color-semantic-accent-primary);
+}
+
+.card--glow {
+    border: 1px solid rgba(0, 240, 255, 0.3);
+    box-shadow: var(--elevation-glow);
+    background: linear-gradient(135deg, rgba(0, 240, 255, 0.05), rgba(112, 0, 255, 0.05));
+}
+
+/* Clickable */
+.card--clickable {
+    cursor: pointer;
+}
+
+.card--clickable:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--elevation-xl);
+}
+
+/* Sub-components */
+.card__header {
+    margin-bottom: var(--spacing-4);
+}
+
+.card__footer {
+    margin-top: var(--spacing-4);
+    padding-top: var(--spacing-4);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.card__title {
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-semantic-text-primary);
+    margin: 0 0 var(--spacing-2) 0;
+}
+
+.card__description {
+    font-size: var(--font-size-sm);
+    color: var(--color-semantic-text-muted);
+    margin: 0;
+    line-height: 1.5;
+}
