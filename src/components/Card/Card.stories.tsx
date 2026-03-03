@@ -41,8 +41,7 @@ export const Default: Story = {
                     <Button size="sm">Action</Button>
                 </CardFooter>
             </>
-        ),
-        style: { width: '400px' }
+        )
     },
 };
 
@@ -62,7 +61,7 @@ export const Glow: Story = {
 
 export const AllVariants: Story = {
     render: () => (
-        <Stack gap="md" style={{ width: '400px' }}>
+        <Stack gap="md">
             <Card variant="default">Default Variant</Card>
             <Card variant="outlined">Outlined Variant</Card>
             <Card variant="ghost">Ghost Variant</Card>
